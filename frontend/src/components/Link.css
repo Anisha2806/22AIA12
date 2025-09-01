@@ -1,0 +1,78 @@
+.link-container {
+  background: aqua;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  gap: 20px;
+}
+
+.link {
+  display: flex;
+  gap: 12px;
+}
+
+.inputbox {
+  width: 600px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 1.1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.inputbox:focus {
+  border-color: #646cff;
+  box-shadow: 0 0 0 2px rgba(100, 108, 255, 0.3);
+}
+
+.btn {
+  height: 46px;
+  padding: 0 20px;
+  font-size: 1.05rem;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  
+}
+
+.btn:hover {
+  background-color: #4d55e0;
+}
+
+.result-box {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.short-url {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.copy-btn {
+  padding: 6px 12px;
+  background: #10b981; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+ 
+}
+
+.copy-btn:hover {
+  background: #059669; 
+}
